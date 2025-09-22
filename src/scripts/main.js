@@ -7,7 +7,7 @@ function parseSalary(salaryStr) {
 }
 
 function sortList(list) {
-  const arr = getEmployees(listOfEmployees);
+  const arr = getEmployees(list);
   const items = [...list.querySelectorAll('li')];
 
   arr.sort((a, b) => b.salary - a.salary);
